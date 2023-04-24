@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+    background-color: #141321;
+    color: #dddddd;
+    margin: auto;
+    max-width: 960px;
+    line-height: 1.8em;
+    font-family: 'Fira Code', monospace;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    margin: 30px 30px;
+    padding: 5px 0px;
+}
+
+#navbar a.active {
+    color: #b794f4;
+    border-bottom: 1px solid #b794f4;
+}
+
+#container {
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-link {
+    color: #c4c4c4;
+    font-weight: normal;
+    text-decoration: none;
+    border: none;
+}
+
+.icon-link,
+.icon-link:hover {
+    border: none;
+}
+
+code {
+    color: #b794f4;
+    background-color: #1e1e2e;
+    padding: 5px;
+}
+
+footer {
+    color: #777777;
+    font-size: 10.4px;
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    color: #dddddd;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dotted #868686;
+    padding-bottom: 4px;
+}
+
+a:hover,
+#footer-link:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+hr {
+    border: 1px solid #403c77;
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    padding: 15px;
+}
