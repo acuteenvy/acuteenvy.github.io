@@ -16,13 +16,13 @@ h1 {
 strong,
 em {
     color: #b794f4;
-    background-color: #1e1e2e;
 }
 
 code {
     padding: 15px;
     background-color: #1e1e2e;
     border-left: 5px solid #b794f4;
+    display: block;
 }
 
 a {
