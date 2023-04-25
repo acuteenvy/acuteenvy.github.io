@@ -13,7 +13,6 @@ h1 {
     padding: 10px 0;
 }
 
-code,
 strong,
 em {
     color: #b794f4;
@@ -21,7 +20,9 @@ em {
 }
 
 code {
-    padding: 5px;
+    padding: 15px;
+    background-color: #1e1e2e;
+    border-left: 5px solid #b794f4;
 }
 
 a {
