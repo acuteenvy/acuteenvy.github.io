@@ -33,7 +33,7 @@ body {
     flex-direction: column;
 }
 
-#footer-link {
+.footer-link {
     color: #c4c4c4;
     font-weight: normal;
     text-decoration: none;
@@ -79,6 +79,12 @@ hr {
     margin-bottom: 20px;
 }
 
-.project-title {
-    padding: 15px;
+.project-name,
+.under-name {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.under-name {
+    font-style: italic;
 }
