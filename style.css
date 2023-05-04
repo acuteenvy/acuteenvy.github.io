@@ -66,8 +66,7 @@ a {
     padding-bottom: 4px;
 }
 
-a:hover,
-#footer-link:hover {
+a:hover {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
 }
