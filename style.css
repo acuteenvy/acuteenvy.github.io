@@ -78,6 +78,11 @@ hr {
     margin-bottom: 20px;
 }
 
+.colored-heading,
+.project-name {
+    color: #7c8dfd;
+}
+
 .project-name,
 .under-name {
     margin-bottom: 0;
