@@ -4,9 +4,29 @@ body {
     background-color: #141321;
     color: #dddddd;
     margin: auto;
+    padding: 1em;
     max-width: 960px;
     line-height: 1.8em;
     font-family: 'Fira Code', monospace;
+    font-variant-ligatures: none;
+}
+
+@media screen and (min-width: 960px) {
+    #TOC {
+        position: fixed;
+        background-color: #171624;
+        width: 15em;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: 0em 1em 5em;
+        overflow-y: scroll;
+    }
+
+    body {
+        padding-left: 20em;
+        margin: 0px;
+    }
 }
 
 h1 {
@@ -39,4 +59,13 @@ a {
 a:hover {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
+}
+
+h1 a, h1 a:hover,
+h2 a, h2 a:hover,
+h3 a, h3 a:hover,
+h4 a, h4 a:hover,
+h5 a, h5 a:hover,
+h6 a, h6 a:hover {
+    border-bottom: none;
 }
