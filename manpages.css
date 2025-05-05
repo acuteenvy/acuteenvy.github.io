@@ -20,7 +20,8 @@ body {
         top: 0;
         height: 100%;
         padding: 0em 1em 5em;
-        overflow-y: scroll;
+        overflow-y: auto;
+        scrollbar-color: #dddddd #141321;
     }
 
     body {
